@@ -34,7 +34,7 @@ export const Download: FC = () => {
             flexDirection: 'column',
           }}
         >
-          <h2>Download some data here 👇</h2>
+          <h2>Download order detail here 👇</h2>
           <Btn onClick={saveFile}>Download</Btn>
         </Flex>
       </Flex>
