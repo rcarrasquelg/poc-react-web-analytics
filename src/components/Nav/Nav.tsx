@@ -7,7 +7,7 @@ export const Nav = () => {
     <Container bg="secondary" sx={{ display: 'flex', width: '100vw' }}>
       <Flex as="nav" sx={{ display: 'flex', width: '100%', paddingX: '2rem' }}>
         <Flex sx={{ display: 'flex', width: '50%', alignItems: 'center', justifyContent: 'start', color: 'white' }}>
-          POC REACT
+          POC ANALYTICS REACT
         </Flex>
         <Box sx={{ display: 'flex', width: '50%', justifyContent: 'end' }}>
           <Link to="/">
