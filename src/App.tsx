@@ -11,6 +11,9 @@ import { GTMEvents } from './types/common/TagManager'
 import { SingupNew } from './pages/Singup/SingupNew'
 import { Download } from './pages/Download/Download'
 import { EditUser } from './pages/EditUser/EditUser'
+import { ProductsList } from './pages/ProductsList/ProductsList'
+import { UserInfo } from './pages/UserInfo/UserInfo'
+import { Checkout } from './pages/Checkout/Checkout'
 
 export const App = () => {
   const { dataLayer } = useGTM()
@@ -46,6 +49,24 @@ export const App = () => {
       path: '/test',
       title: 'Test',
       component: <EditUser />,
+      private: true,
+    },
+    {
+      path: '/products',
+      title: 'Products',
+      component: <ProductsList />,
+      private: true,
+    },
+    {
+      path: '/user-info',
+      title: 'User Info',
+      component: <UserInfo />,
+      private: true,
+    },
+    {
+      path: '/checkout',
+      title: 'Checkout',
+      component: <Checkout />,
       private: true,
     },
   ]

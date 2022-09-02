@@ -25,6 +25,11 @@ export const Nav = () => {
               Download
             </NavLink>
           </Link>
+          <Link to="/products">
+            <NavLink p={2} sx={{ '&': { color: 'white' }, '&:hover': { color: 'black' } }}>
+              Products
+            </NavLink>
+          </Link>
         </Box>
       </Flex>
     </Container>
